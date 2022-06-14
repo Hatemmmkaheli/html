@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+    letter-spacing: 0.15rem;
+}
+
+table {
+    margin: 2rem auto;
+}
+
+table,
+th,
+td {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid;
+    padding: 0.5rem 8rem 0.5rem 0.5rem;
+}
+
+th {
+    border: 2px solid black;
+    color: #1363DF;
+}
+
+.table tr:nth-child(even) {
+    background-color: #DBDFFD;
+}
+
+.th-company {
+    width: 70%;
+}
+
+.days-table th:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+.days-table td:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+.hov-table tr:hover {
+    background-color: #22dbdb;
+}
